@@ -81,6 +81,8 @@ In 'about' page,
 Following expression was written for the same,
         
         Total Properties = COUNTROWS('fact data') 
+        ![TotalProperties](https://github.com/user-attachments/assets/823d4cc4-d63f-4262-af53-96f8627bdde0)
+
 A card visual was used to represent count of customers.      
 - Step 17 : New measure was created to find  % of Waterfront & Renovated Status,
  
@@ -90,6 +92,8 @@ A card visual was used to represent count of customers.
         % of waterfall status No = DIVIDE([Waterfront Status No],[Total Properties],0) 
 
 - Step 18 : The report was then published to Power BI Service.
+  ![uploaded](https://github.com/user-attachments/assets/033ef378-f6dc-48a3-88ab-3886f30e9c1a)
+
  
 # Insights
 
