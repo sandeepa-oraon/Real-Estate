@@ -81,7 +81,8 @@ In 'about' page,
 Following expression was written for the same,
         
         Total Properties = COUNTROWS('fact data') 
-        ![TotalProperties](https://github.com/user-attachments/assets/823d4cc4-d63f-4262-af53-96f8627bdde0)
+        
+ ![TotalProperties](https://github.com/user-attachments/assets/823d4cc4-d63f-4262-af53-96f8627bdde0)
 
 A card visual was used to represent count of customers.      
 - Step 17 : New measure was created to find  % of Waterfront & Renovated Status,
