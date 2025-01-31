@@ -52,9 +52,9 @@ in custom column formula tab. For 'Renovated Status' we create a conditional col
 
 In 'main' & 'overview' page,
 - Step 10 : Cards were added for four fields named Waterfront Status with 'Has waterfront' and 'Has no waterfront', and Renovated Status with 'Has Renovated' and 'Has not Renovated'.
-for Waterfront Status with 'Has Waterfront' formula used is: 
+for Waterfront Status with 'Has Waterfront' formula used is:
 
-    Waterfront Status Yes = CALCULATE([Total Properties], FILTER('Dim_Waterfront', 'Dim_Waterfront'[Waterfront Status]="Yes"))
+      Waterfront Status Yes = CALCULATE([Total Properties], FILTER('Dim_Waterfront', 'Dim_Waterfront'[Waterfront Status]="Yes"))
 
 for Waterfront Status with 'Has no Waterfront' formula used is: 
         
@@ -70,9 +70,11 @@ for Renovated Status with 'Has not Renovate' formula used is:
 - Step 12 :  As for 'Condition status wise Properties', cards and Donut chart had been added for visualizations. And for 'Property by Year Status' Line chart had been used.
 for card value of very good, good and bad formulas are:
 
-    VeryGood Condition = CALCULATE([Total Properties], FILTER('Dim_Condition', 'Dim_Condition'[Condition Status]="Very Good"))
-    Good Condition = CALCULATE([Total Properties], FILTER('Dim_Condition', 'Dim_Condition'[Condition Status]="Good"))
-    Bad Condition = CALCULATE([Total Properties], FILTER('Dim_Condition', 'Dim_Condition'[Condition Status]="Bad"))
+      VeryGood Condition = CALCULATE([Total Properties], FILTER('Dim_Condition', 'Dim_Condition'[Condition Status]="Very Good"))
+
+      Good Condition = CALCULATE([Total Properties], FILTER('Dim_Condition', 'Dim_Condition'[Condition Status]="Good"))
+  
+      Bad Condition = CALCULATE([Total Properties], FILTER('Dim_Condition', 'Dim_Condition'[Condition Status]="Bad"))
 - Step 13 : Filter panel were added to filter values according to 'yr_built', 'Renovated Satus', and 'Property location'.
 In 'Location' page,
 - Step 14 : Map were added for visualizing location and according to the location, table had been added to displays 'floor status' and 'bedroom status' in 'very good', 'good', and 'bad' condition.
