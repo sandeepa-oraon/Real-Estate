@@ -55,9 +55,11 @@ In 'main' & 'overview' page,
 for Waterfront Status with 'Has Waterfront' formula used is: 
 
     Waterfront Status Yes = CALCULATE([Total Properties], FILTER('Dim_Waterfront', 'Dim_Waterfront'[Waterfront Status]="Yes"))
+
 for Waterfront Status with 'Has no Waterfront' formula used is: 
         
     Waterfront Status No = CALCULATE([Total Properties], FILTER('Dim_Waterfront', 'Dim_Waterfront'[Waterfront Status]="No"))
+
 for Renovated Status with 'Has Renovate' formula used is: 
 
     Renovated Status Yes = CALCULATE([Total Properties], FILTER('Dim_Renovated', 'Dim_Renovated'[Renovated Status]="Renovated"))
